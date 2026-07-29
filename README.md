@@ -4,6 +4,30 @@ Aplicativo para Windows que monitora a pasta **Downloads** em segundo plano e
 detecta automaticamente novos arquivos ZIP. Quando um download termina, o
 programa pergunta onde o conteúdo deve ser organizado.
 
+## Demonstração
+
+### Organização do arquivo
+
+Após detectar um novo ZIP, o aplicativo permite selecionar o local de destino,
+criar uma pasta com o nome original do arquivo ou informar um nome
+personalizado.
+
+![Tela de organização do arquivo ZIP](docs/images/tela-organizacao.png)
+
+### Estrutura criada
+
+O destino escolhido recebe pastas separadas para preservar o ZIP original e
+armazenar o conteúdo extraído.
+
+![Estrutura das pastas Zipado e Extraido](docs/images/estrutura-pastas.png)
+
+### Conclusão da extração
+
+Ao finalizar, o aplicativo informa a quantidade de arquivos processados e
+oferece a opção de abrir imediatamente a pasta extraída.
+
+![Confirmação para abrir a pasta extraída](docs/images/confirmacao-extracao.png)
+
 ## Funcionalidades
 
 - Inicialização automática com o Windows
